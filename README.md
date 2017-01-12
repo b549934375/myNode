@@ -6,5 +6,5 @@ npm start
 
 数据库：mongodb,运行前开两个命令窗口
 
-mongod --dbpath 你的数据库地址
-mongo
+窗口1：mongod --dbpath 你的数据库地址
+窗口2：mongo
