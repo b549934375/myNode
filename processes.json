@@ -1,0 +1,21 @@
+{
+  "name"        : "nodetest",
+  "script"      : "./index.js",
+  "cwd"         : "./",
+  "watch": [
+    "views",
+    "routers"
+  ],
+  "ignore_watch" : [
+    "node_modules",
+    "logs",
+    "public"
+  ],
+  "instances"   : "max",
+  exec_mode : "cluster",
+  "error_file" : "./logs/app-err.log",
+  "out_file"   : "./logs/app-out.log",
+  "env": {
+      "NODE_ENV": "production"
+  }
+}
